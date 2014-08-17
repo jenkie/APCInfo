@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Disable Screen dim</string>
+			<key>Key</key>
+			<string>screenDimDisabled</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>sp3</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Init Cmd</string>
+			<key>Key</key>
+			<string>initCmd</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentCenter</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>lp3</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Profile 1 Cmd</string>
+			<key>Key</key>
+			<string>profileOneCmd</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentCenter</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>sp3</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Profile 2 Cmd</string>
+			<key>Key</key>
+			<string>profileTwoCmd</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentCenter</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>230</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Battery Capacity (Wh)</string>
+			<key>Key</key>
+			<string>batteryCapacity</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentCenter</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>5</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Store every n seconds</string>
+			<key>Key</key>
+			<string>dbStoreInterval</string>
+			<key>IASKTextAlignment</key>
+			<string>IASKUITextAlignmentCenter</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
